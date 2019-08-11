@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 20,
+    "editor.accessibilitySupport": "off",
+    "editor.fastScrollSensitivity": 20,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.rendererType": "dom"
+}
