@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component'; // importing the server component in root module
+import { ServersComponent } from './servers/servers.component'; // importing the servers component in root module
 
 
 @NgModule({
