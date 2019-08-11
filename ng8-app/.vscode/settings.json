@@ -3,5 +3,6 @@
     "editor.accessibilitySupport": "off",
     "editor.fastScrollSensitivity": 2000000,
     "terminal.explorerKind": "external",
-    "terminal.integrated.rendererType": "dom"
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "Consolas, 'Helvetica', Helvetica"
 }
