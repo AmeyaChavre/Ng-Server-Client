@@ -2,15 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ServerComponent } from './server/server.component'; // importing the server component in root module
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerComponent // registering the server component 
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] // bootstarping the AppComponent 
 })
 export class AppModule { }
