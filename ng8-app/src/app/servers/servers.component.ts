@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  // selector: app-servers,
+  selector: 'app-servers', // the most preferrable style for using selector prperty in components
   // selector: '[app-servers]', 
   // selector: '.app-servers',
   template: `<app-server></app-server>
