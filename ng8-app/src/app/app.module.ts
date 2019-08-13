@@ -11,7 +11,8 @@ import { ClientComponent } from './client/client.component'; // including client
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent // registering the server component 
+    ServersComponent,
+    ClientComponent
   ],
   imports: [
     BrowserModule,
