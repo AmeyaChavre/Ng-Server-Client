@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 	`
 	]
 })
-
+/*Client Component appears in green*/
 export class ClientComponent{
 
 }
