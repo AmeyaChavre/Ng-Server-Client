@@ -16,4 +16,16 @@ export class ClientComponent{
  clientId : number = 10;
  clientLocation : string = "US";
  clientStatus : string = "online";
+
+ getClientId(){
+ 	return this.clientId;
+ }
+
+ getClientLocation(){
+ 	return this.clientLocation;
+ }
+
+ getClientStatus(){
+ 	return this.clientStatus;
+ }
 }
