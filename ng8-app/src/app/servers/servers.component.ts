@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   // selector: '.app-servers',
   template: `<app-server></app-server>
   <hr>
-  <p>Nesting Components without using templateUrl Property - INLINE TEMPLATES</p>
-  <hr>
   <app-server></app-server>`,
   styleUrls: ['./servers.component.css']
 })
