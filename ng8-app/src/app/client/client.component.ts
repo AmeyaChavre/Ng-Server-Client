@@ -13,5 +13,7 @@ import { Component } from '@angular/core';
 })
 /*Client Component appears in green*/
 export class ClientComponent{
-
+ clientId : number = 10;
+ clientLocation : string = "US";
+ clientStatus : string = "online";
 }
