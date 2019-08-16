@@ -30,7 +30,7 @@ export class ServersComponent implements OnInit {
   }
 
   onUpdateServerName(event:  any){
-    console.log(event);
+//    console.log(event);
   }
 
 }
