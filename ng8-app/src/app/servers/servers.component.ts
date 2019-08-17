@@ -37,16 +37,17 @@ export class ServersComponent implements OnInit {
   }
 
  onAddNewUser(){
+     if(this.userName!=''){
+     this.allowNewUser = true;
      this.userAddStatus = 'User Added : ' + this.userName;
+     }
+     
     
   }
 
   onResetUser(event: Event){
     console.log(event);
     this.userName=(<HTMLInputElement>event.target).value;
-     if(this.userName!=''){
-     this.allowNewUser = true;
-     }
   }
     
 

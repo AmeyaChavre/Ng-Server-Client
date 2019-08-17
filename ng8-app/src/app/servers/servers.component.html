@@ -27,10 +27,11 @@ Add Server
 class="form-control"
 [(ngModel)]="userName"
 >
+<p>{{userName}}</p>
 <button 
 class="btn btn-primary" 
 [disabled]="!allowNewUser"
-(click)="onResetUser()"
+(click)="onAddNewUser()"
 > 
 Reset User
 </button>
