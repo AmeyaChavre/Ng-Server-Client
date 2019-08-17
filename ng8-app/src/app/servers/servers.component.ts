@@ -40,7 +40,7 @@ export class ServersComponent implements OnInit {
   }
 
   onAddNewUser(){
-    this.userName = 'User Added : ' + this.
+    this.userAddStatus = 'User Added : ' + this.userName;
 }
   onResetUser(event: Event){
     console.log(event);
