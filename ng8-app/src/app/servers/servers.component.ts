@@ -15,6 +15,7 @@ export class ServersComponent implements OnInit {
   serverCreationStatus: string = 'No Server was Created!';
   serverName = 'Testserver'; // default server will be "Testserver"
   allowNewUser:boolean = false;
+  userAddStatus: string =
   userName = ''; 
   constructor() { 
     setTimeout(()=>{
@@ -38,6 +39,9 @@ export class ServersComponent implements OnInit {
       this.serverName=(<HTMLInputElement>event.target).value;
   }
 
+  onAddNewUser(){
+    this.userName = 'User Added : ' + this.
+}
   onResetUser(event: Event){
     console.log(event);
     this.userName=(<HTMLInputElement>event.target).value;
