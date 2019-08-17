@@ -14,11 +14,15 @@ export class ServersComponent implements OnInit {
   allowNewServer:boolean = false;
   serverCreationStatus: string = 'No Server was Created!';
   serverName = 'Testserver'; // default server will be "Testserver"
+  allowNewUser:boolean = false;
   userName = ''; 
   constructor() { 
     setTimeout(()=>{
       this.allowNewServer = true;
     },2000);
+    if(this.userName!=''){
+     this.allowNewUser = true;
+    }
   }
 
   ngOnInit() {
