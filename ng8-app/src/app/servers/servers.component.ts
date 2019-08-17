@@ -37,11 +37,7 @@ export class ServersComponent implements OnInit {
   onResetUser(event: Event){
     console.log(event);
     this.userName=(<HTMLInputElement>event.target).value;
-    if(!this.userName){
-
-    }
-
   }
-    }
+    
 
 }
