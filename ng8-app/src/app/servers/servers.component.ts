@@ -21,9 +21,6 @@ export class ServersComponent implements OnInit {
     setTimeout(()=>{
       this.allowNewServer = true;
     },2000);
-    if(this.userName!=''){
-     this.allowNewUser = true;
-    }
   }
 
   ngOnInit() {
@@ -40,8 +37,12 @@ export class ServersComponent implements OnInit {
   }
 
   onAddNewUser(){
-    this.userAddStatus = 'User Added : ' + this.userName;
-}
+     if(this.userName!=''){
+     this.allowNewUser = true;
+     this.userAddStatus = 'User Added : ' + this.userName;
+    }
+  }
+  
   onResetUser(event: Event){
     console.log(event);
     this.userName=(<HTMLInputElement>event.target).value;
