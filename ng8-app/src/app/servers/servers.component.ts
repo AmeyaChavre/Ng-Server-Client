@@ -14,7 +14,7 @@ export class ServersComponent implements OnInit {
   allowNewServer:boolean = false;
   serverCreationStatus: string = 'No Server was Created!';
   serverName = 'Testserver'; // default server will be "Testserver"
-  userName = 'Testuser';
+  userName = 'Testuser'; // default username will be "Testuser"
 
   constructor() { 
     setTimeout(()=>{
