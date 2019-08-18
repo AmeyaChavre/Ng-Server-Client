@@ -23,7 +23,7 @@ Add Server
 <!---p> {{serverCreationStatus}} </p-->
 <!--Using *ngIf structural directive , * indicates that directive is structural and actually manipulates DOM-->
 <p *ngIf="serverCreated"> The Server is Created. The Server Name is : {{serverName}} </p>
-<p #noServer> No Server was Created! </p>
+<ng-template #noServer> No Server was Created! </ng-template>
 <hr>
 <label>User Name</label>
 <input type="text" 
