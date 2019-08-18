@@ -21,10 +21,13 @@ export class ServerComponent{
 	getServerId(){
 		return this.serverId;
 	}
-	
+
 	getServerStatus(){
 		return this.serverStatus;
 	}
 
+	getColor(){
+		
+	}
 
 }
