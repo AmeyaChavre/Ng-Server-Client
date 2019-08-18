@@ -27,7 +27,7 @@ export class ServerComponent{
 	}
 
 	getColor(){
-	return ;
+	return this.serverStatus==='online' ? green : red;
 	}
 
 }
