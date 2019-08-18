@@ -30,6 +30,9 @@ export class ServerComponent{
 		if(this.serverStatus === 'online'){
 
 		}
+		else{
+			
+		}
 	}
 
 }
