@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 
 export class ServerComponent{
 	serverId : number = 10;
-	serverStatus : string = "OK..Server is Alive";
+	serverStatus : string = "Offline";
 	getServerId(){
 		return this.serverId;
 	}
