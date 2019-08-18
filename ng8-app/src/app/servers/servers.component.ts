@@ -27,6 +27,7 @@ export class ServersComponent implements OnInit {
   }
 
   onCreateServer(){
+    this.serverCreated=true; // setting serverCreated=true when the button is clicked 
     this.serverCreationStatus = 'Server was Created!. The server name is : ' + this.serverName;
   }
 
