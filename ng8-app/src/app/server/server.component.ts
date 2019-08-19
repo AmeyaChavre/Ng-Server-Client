@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 				color: white;
 			}
 			.offline{
-				
+				color:
 			}
 		   `]
 })
