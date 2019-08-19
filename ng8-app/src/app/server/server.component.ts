@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
    styles : [`
 	p {
 		color:red;
-//	}		
+	}		
 //	`]
 })
 
