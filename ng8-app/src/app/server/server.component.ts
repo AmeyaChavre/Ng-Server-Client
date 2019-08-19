@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 			.online{
 				color: white;
 			}
+			.offline{}
 		   `]
 })
 
