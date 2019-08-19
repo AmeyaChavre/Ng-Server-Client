@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 	p {
 		color:red;
 	}		
-//	`]
+	`]
 })
 
 export class ServerComponent{
