@@ -16,7 +16,7 @@ export class ServersComponent implements OnInit {
   serverName = 'Testserver'; // default server will be "Testserver"
   userName = ''; 
   serverCreated:boolean = false; // default value should be false
-  servers = []; // a place to store servers created
+  servers = ['Testserver']; // a place to store servers created
   constructor() { 
     setTimeout(()=>{
       this.allowNewServer = true;
