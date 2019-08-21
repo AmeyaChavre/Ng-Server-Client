@@ -34,7 +34,7 @@ export class ServersComponent implements OnInit {
   }
 
   onDeleteServer(){
-    this.serverCreated
+    this.serverCreated = true;
 
   }
 
