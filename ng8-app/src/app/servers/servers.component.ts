@@ -35,7 +35,7 @@ export class ServersComponent implements OnInit {
 
   onDeleteServer(){
     this.serverCreated = true; // setting serverCreated=true when the button is clicked 
-    this.servers.pop(this.serverName); 
+    this.servers.pop(); 
   }
 
   onUpdateServerName(event: Event){
