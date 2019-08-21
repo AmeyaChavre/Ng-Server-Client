@@ -34,7 +34,7 @@ export class ServersComponent implements OnInit {
   }
 
   onDeleteServer(){
-    this.serverCreated = true; // setting serverCreated=true when the button is clicked 
+    this.serverCreated = false; // setting serverCreated=true when the button is clicked 
     this.servers.pop(); // poping the newly created servers in the array "servers"
     this.serverCreationStatus = 'Server was Deleted!. The server name is : ' + this.serverName;
   }
