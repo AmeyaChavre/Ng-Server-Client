@@ -17,10 +17,10 @@ export class ServersComponent implements OnInit {
   userName = ''; 
   serverCreated:boolean = false; // default value should be false
   servers = []; // a place to store servers created
-  passcodeReveal:boolean = false;
+  passcodeReveal:boolean = false; // default value should be false
   constructor() { 
     setTimeout(()=>{
-      this.allowNewServer = true;
+      this.allowNewServer = true; 
     },2000);
   }
 
