@@ -34,7 +34,7 @@ export class ServersComponent implements OnInit {
   }
 
   onDeleteServer(){
-    this.serverCreated = true;
+    this.serverCreated = true; // setting serverCreated=true when the button is clicked 
 
   }
 
