@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServersComponent implements OnInit {
   allowNewServer:boolean = false;
   serverCreationStatus: string = 'No Server was Created!';
-  serverName = 'Testserver'; // default server will be "Testserver"
+  serverName = ''; // default server will be "Blank"
   userName = ''; 
   serverCreated:boolean = false; // default value should be false
   servers = []; // a place to store servers created
