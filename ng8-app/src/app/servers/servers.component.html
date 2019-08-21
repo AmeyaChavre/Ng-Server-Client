@@ -40,6 +40,13 @@ Delete Server
 </ng-template>
 <hr>
 <label>Server Passcode</label>
+<button 
+class="btn btn-warning" 
+[disabled]="!allowNewServer"
+(click)="onDeleteServer()"
+> 
+Toggle Server Passcode
+</button>
 <hr>
 <label>User Name</label>
 <input type="text" 
