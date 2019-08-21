@@ -30,13 +30,13 @@ export class ServersComponent implements OnInit {
   onCreateServer(){
     this.serverCreated = true; // setting serverCreated=true when the button is clicked 
     this.servers.push(this.serverName); // pushing the newly created servers in the array "servers"
-    //this.serverCreationStatus = 'Server was Created!. The server name is : ' + this.serverName;
+    this.serverCreationStatus = 'Server was Created!. The server name is : ' + this.serverName;
   }
 
   onDeleteServer(){
     this.serverCreated = false; // setting serverCreated=true when the button is clicked 
     this.servers.pop(); // poping the newly created servers in the array "servers"
-    //this.serverCreationStatus = 'Server was Deleted!. The server name is : ' + this.serverName;
+    this.serverCreationStatus = 'Server was Deleted!. The server name is : ' + this.serverName;
   }
 
   onUpdateServerName(event: Event){
