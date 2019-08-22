@@ -56,7 +56,9 @@ Toggle Server Passcode
 <button class="btn btn-warning" (click)="passcodeGenerator()"> 
 Toggle Server Passcode
 </button>
-<p *ngIf="passcodeReveal">PassCode :: Hello! I am Johnny Cash!</p>
+<p *ngIf="passcodeReveal">
+PassCode :: Hello! I am Johnny Cash!
+</p>
 <div *ngFor="let logItem of log"> {{logItem}} </div>
 <hr>
 <!--------------------------------------------------------------------------------------->
