@@ -52,6 +52,7 @@ export class ServersComponent implements OnInit {
    }
 
    passcodeGenerator(){
+      this.passcodeReveal = !this.passcodeReveal;
 
    }
 
