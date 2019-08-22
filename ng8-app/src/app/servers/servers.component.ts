@@ -18,7 +18,7 @@ export class ServersComponent implements OnInit {
   serverCreated:boolean = false; // default value should be false
   servers = []; // a place to store servers created
   passcodeReveal:boolean = false; // default value should be false
-  log=[];
+  log=[]; // a place to log the number of times Toggle Button was Clicked
   constructor() { 
     setTimeout(()=>{
       this.allowNewServer = true; 
