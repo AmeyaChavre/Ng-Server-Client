@@ -61,7 +61,7 @@ PassCode :: Hello! I am Johnny Cash!
 </p>
 <div 
 *ngFor="let logItem of log"
-[ngStyle] = "{ backgroundColor: logItem%2!==0 ? 'green' : 'red', color:'white' }"
+[ngStyle] = "{ backgroundColor: logItem%2!==0 ? 'green' : 'red', color: logItem%2!==0 ? 'white':'yellow' }"
 > 
 
 {{logItem}} 
