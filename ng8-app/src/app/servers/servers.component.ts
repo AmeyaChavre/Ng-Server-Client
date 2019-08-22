@@ -18,6 +18,7 @@ export class ServersComponent implements OnInit {
   serverCreated:boolean = false; // default value should be false
   servers = []; // a place to store servers created
   passcodeReveal:boolean = false; // default value should be false
+  log=[];
   constructor() { 
     setTimeout(()=>{
       this.allowNewServer = true; 
@@ -51,7 +52,7 @@ export class ServersComponent implements OnInit {
    }
 
    passcodeGenerator(){
-     
+
    }
 
 }
