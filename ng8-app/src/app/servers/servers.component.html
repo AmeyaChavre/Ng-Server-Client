@@ -37,15 +37,17 @@ class="btn btn-danger"
 Delete Server 
 </button>
 <!--------------------------------------------------------------------------------------->
-
 <!--<p [innerText]="allowNewServer"></p>-->
 <!---p> {{serverCreationStatus}} </p-->
 <!--Using *ngIf structural directive , * indicates that directive is structural and actually manipulates DOM-->
+<!--------------------------------------------------------------------------------------->
 <p *ngIf="serverCreated; else noServer"> The Server is Created. The Server Name is : {{serverName}} </p>
 <ng-template #noServer> 
 <p>  The Server : {{serverName}} was Deleted.</p> 
 </ng-template>
 <hr>
+<!--------------------------------------------------------------------------------------->
+
 <label>Server Passcode</label>
 <br>
 &nbsp;
