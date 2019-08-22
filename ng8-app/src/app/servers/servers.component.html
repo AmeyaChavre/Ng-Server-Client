@@ -60,8 +60,8 @@ Toggle Server Passcode
 PassCode :: Hello! I am Johnny Cash!
 </p>
 <div 
-*ngFor="let logItem of log"
-[ngStyle] = "{ backgroundColor: logItem%2!==0 ? 'black' : 'yellow', color: logItem%2!==0 ? 'white':'black' }"
+*ngFor="let logItem of log; let i = index"
+[ngStyle] = "{ backgroundColor: index%2!==0 ? 'black' : 'yellow', color: index%2!==0 ? 'white':'black' }"
 > 
 
 {{logItem}} 
