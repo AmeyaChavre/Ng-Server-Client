@@ -50,4 +50,8 @@ export class ServersComponent implements OnInit {
      this.userName='';
    }
 
+   passcodeGenerator(){
+     
+   }
+
 }
